@@ -98,3 +98,7 @@ scrollbar-width: thin;
 .card__descrição #img {
     width: 20%;
 }
+
+.descrição__imagem {
+    width: 30%;
+}
