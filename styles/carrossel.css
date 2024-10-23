@@ -100,5 +100,9 @@ scrollbar-width: thin;
 }
 
 .descrição__imagem {
-    width: 30%;
+    width: 20%;
+}
+
+.descrição .estrela {
+    width: 24px;
 }
