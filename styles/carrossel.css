@@ -8,8 +8,15 @@
     padding: 1em 0 0.5em 0;
 }
 
+.swiper-wrapper {
+display:flex;
+overflow-x: auto;
+scrollbar-width: thin;
+}
+
 .swiper-slide{
-    overflow-x: scroll;
+    display:flex;
+    gap: 20px;
     
 }
 
@@ -81,4 +88,13 @@
 
 .botões__item {
     margin: 0 0.5em;
+    width: 24px;
+}
+
+.botões__item img {
+    width: 24px;
+}
+
+.card__descrição #img {
+    width: 20%;
 }
